@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(181, 175, 235);
+    box-shadow: 1px 1px  black;
+}
+ 
+ :nth-of-type(odd) {
+    border-radius: 50%;
+ }
+
+ .text{
+    border-style: solid;
+    border-color: black;
+    border-radius: 0%;
+    border-width: 1px;
+    width: 400px;
+    margin: 10px auto;
+    font-size: 1em;
+    padding:10px;
+ }
+
+ #t1{
+    text-align: left;
+ }
+
+ #t2{
+letter-spacing: 5px;
+line-height: 50px;
+ }
+
+ #t3{
+    text-align: right;
+ }
