@@ -20,7 +20,7 @@ li {
   padding-top: 50px;
   font-size: 25px;
 }
-
+/* gallery */
 .gallery {
   display: flex;
   flex-wrap: wrap;
