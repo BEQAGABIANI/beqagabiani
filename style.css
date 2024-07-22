@@ -1,0 +1,45 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  color: white;
+}
+
+li {
+  background-color: black;
+  width: 260px;
+  height: 60px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 60px;
+  padding: 0 20px;
+  margin: 0 40px;
+}
+
+.item {
+  width: 200px;
+  height: 400px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+p {
+  color: bisque;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 15px;
+}
