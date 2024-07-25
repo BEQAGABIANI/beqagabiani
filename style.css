@@ -1,0 +1,75 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid rgb(194, 192, 192);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40%;
+
+  .navigation {
+    display: flex;
+    gap: 25px;
+  }
+
+  .Login {
+    display: flex;
+    gap: 25px;
+  }
+
+  li {
+    box-shadow: 2px 2px 2px rgb(55, 2, 245);
+    border: 1px solid black;
+    padding: 15px;
+  }
+}
+
+/* .navigation {
+display: flex;
+gap: 25px;
+
+}
+
+.Login {
+display: flex;
+gap: 25px;
+
+}
+
+li{
+    box-shadow: 2px 2px 2px rgb(55, 2, 245);
+    border: 1px solid black;
+    padding:15px; */
+
+.container {
+  padding-top: 150px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  align-content: flex-start;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.image {
+  width: 25%;
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 2px;
+  top: 20px;
+  left: -10px;
+  box-shadow: 2px 4px 4px black;
+  text-shadow: 2px 2px 1px black;
+}
